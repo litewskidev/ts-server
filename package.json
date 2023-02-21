@@ -14,7 +14,8 @@
     "ts-node": "8.10.2"
   },
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "seed": "ts-node prisma/seed.ts"
   },
   "devDependencies": {
     "typescript": "^4.9.5"
